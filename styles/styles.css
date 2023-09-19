@@ -1,0 +1,76 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin-top: 0%;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.container-hobbies {
+    display: flex;
+    width: 90%;
+}
+
+.left-section-hobbies {
+    flex: 1; 
+    padding: 20px;
+    background-color: aliceblue;
+    color: white;
+}
+
+.left-section {
+    flex: 1; 
+    padding: 30px;
+    background-color: rgb(40, 70, 221);
+    color: white;
+}
+
+.left-section h1, .left-section p, .left-section a {
+    font-family: "Roboto", sans-serif;
+}
+
+.centered-content {
+    text-align: center;
+}
+
+.centered-content img,
+.centered-content h1,
+.centered-content p {
+    display: inline-block;
+}
+
+.right-section {
+    flex: 2; /* Right section takes up 2/3 of the container */
+    padding: 30px;
+}
+
+.top-section {
+    background-color: rgb(40, 70, 221);
+    color: white;
+    padding: 30px;
+}
+
+.top-section h1, .top-section p {
+    font-family: "Roboto", sans-serif;
+}
+
+hr {
+    border: 1px solid #ddd;
+}
+
+.bottom-section {
+    padding-left: 30px; /* Adjust left padding for Bottom Section */
+}
+
+.bottom-section h3 {
+    font-family: "Roboto Light", sans-serif;
+}
+
+.contact-info {
+    font-family: "Roboto Light", sans-serif;
+}
